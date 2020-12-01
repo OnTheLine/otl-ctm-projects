@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400);
+table {
+	margin: 0 ;
+} 
+.mirror_table_container {
+	float: left;
+	width: 97%;
+	font-size: 12px;
+	padding: 10px 1.5%;
+	border: 1px solid #ccc;
+	margin: 10px 0%;
+	font-family: "Source Sans Pro",Arial,sans-serif;
+	border: 1px solid #ccc !important;
+}
+.mirror_table_container table td {
+	border: none;
+	border-bottom: 1px dotted #ccc;
+}
+.mirror_table_container.alignRight {
+	float: right;
+	width: 92%;
+	font-size: 14px;
+	padding: 10px 2%;
+	border: 1px solid #ccc;
+	margin: 10px 2%;
+}
+
+.mirror_table_container.alignLeft {
+	float: left;
+	width: 92%;
+	font-size: 14px;
+	padding: 10px 2%;
+	border: 1px solid #ccc;
+	margin: 10px 2%;
+
+}
+
+.mirror_table_headline {
+	font-weight: 100;
+	font-size: 21px;
+	font-family: "Source Sans Pro",Arial,sans-serif;
+	margin-left: 4px;
+	margin-top: 5px;
+}
+.mirror_table_subhead {
+	font-size: 13px;
+	color: #666;
+	font-family: "Source Sans Pro",Arial,sans-serif;
+	margin: 6px 0 8px;
+	margin-left: 4px;
+}
+.mirror_table {
+	width: 100%;
+}
+.mirror_table_source {
+	width: 100%;
+	float: right;
+	text-align: right;
+	font-size: 10px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: #ccc;
+}
+.mirror_table_headers {
+	font-weight: bold;
+	background: #ededed;
+	padding: 5px 8px;
+	font-size: 14px;	
+	border-bottom: 1px solid #8c0c04;
+	text-align: left;
+	color: #8c0c04;
+}
+
+.mirror_table_row td {
+	padding: 4px 2px 3px 8px;
+	border-bottom: #ddd solid 1px;
+	font-size: 14px;
+}
+.primary {
+	display: table-cell;
+}
+.secondary, .tertiary {
+	display: none;
+}
+
+
+
+@media screen and (min-width: 500px) {
+	.secondary {
+		display: table-cell;
+	}
+	.tertiary {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.primary, .secondary, .tertiary {
+		display: table-cell;
+	}
+	.mirror_table_container.alignRight {
+		float: right;
+		width: 50%;
+		font-size: 14px;
+		padding: 10px 2%;
+		border: 1px solid #ccc;
+		margin: 10px 2%;
+	}
+	.mirror_table_container.alignLeft {
+		float: left;
+		width: 50%;
+		font-size: 14px;
+		padding: 10px 2%;
+		border: 1px solid #ccc;
+		margin: 10px 2%;
+	}
+}
+.alignLeft .mirror_table .mirror_table_row td, .alignLeft .mirror_table .mirror_table_top th,
+.alignRight .mirror_table .mirror_table_row td, .alignRight .mirror_table .mirror_table_top th {
+	display: table-cell;
+}

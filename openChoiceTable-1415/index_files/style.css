@@ -1,0 +1,59 @@
+#myTable {
+	width: 100%;
+	float: left;
+	padding: 14px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #aaa;
+}
+#myTable th {
+	text-align: left;
+	background: #dedede;
+	padding: 2px 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: black;
+	cursor: pointer;
+}
+#myTable th:hover, #myTable th.sorted {
+	background: #FA6464;
+}
+#myTable th.bothSort::after {
+	content: url(http://projects.ctmirror.org/content/2014/05/openChoice/bg.gif);
+}
+#myTable th.upSort::after {
+	content: url(http://projects.ctmirror.org/content/2014/05/openChoice/asc.gif);
+	margin-bottom: 5px;
+}
+#myTable th.downSort::after {
+	content: url(http://projects.ctmirror.org/content/2014/05/openChoice/desc.gif);
+}
+#myTable tr {
+
+}
+#myTable td {
+	font-size: 13px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 2px 4px;
+	border-bottom: 1px dotted #ccc;
+}
+.arrows {
+	font-size: 8px;
+	padding-bottom: 6px;
+	margin-left: 5px;
+}
+.mobileHide {
+	display: table-cell;
+}
+@media screen and (max-width: 768px) {
+	.mobileHide {
+		display: none;
+	}	
+}

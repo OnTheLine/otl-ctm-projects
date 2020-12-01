@@ -1,6 +1,8 @@
 # otl-ctm-projects
 CT Mirror race and education data projects by Alvin Chang, Jake Kara, Jacqueline Rabe Thomas
 
+see subfolders with data, code, and screenshots for items listed below
+
 ## Racial breakdown of students since 1969, by district
 https://projects.ctmirror.org/content/2014/05/raceSchools/
 

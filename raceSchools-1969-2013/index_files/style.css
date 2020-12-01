@@ -1,0 +1,426 @@
+.interactiveContainer {
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.searchContainer {
+    float: left;
+    margin-bottom: 10px;
+    position: absolute;
+    right: 61px;
+    top: 20px;
+    z-index: 1000;
+}
+#search {
+    float: left;
+    outline: none;
+    width: 110px;
+    font-size: 15px;
+    height: 18px;
+}
+@media screen and (max-width: 600px) {
+    .searchContainer {
+        float: left;
+        margin-bottom: 10px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+}
+.error {
+    float: left;
+    margin-left: 10px;
+    color: red;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 2px;
+    display: none;   
+}
+.graphicHeader {
+    font-size: 25px;
+    font-weight: 100;
+}
+.searchWords {
+    float: left;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.searchButton {
+    float: left;
+    border: 1px solid #999;
+    background: #eee;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    color: #888;
+    font-size: 13px;
+    padding: 2px 6px 3px;
+    margin-left: -2px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.searchButton:hover {
+    background: #ddd;
+}
+.mapContainer {
+    float: left;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border: 1px solid #aaa;
+}
+#map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+@media screen and (max-width: 520px) {
+    .mapContainer {
+        float: left;
+        width: 100%;
+        height: 380px;
+        position: relative;
+        border: 1px solid #aaa;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .mapContainer {
+        float: left;
+        width: 100%;
+        height: 360px;
+        position: relative;
+        border: 1px solid #aaa;
+    }
+    .graphicHeader {
+        font-size: 20px;
+    }
+}
+
+.info {
+    padding: 12px 16px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 200px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+.toolHeader {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.toolItem {
+    width: 16.666666667%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.townName {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.faded {
+    opacity: 0.4;
+}
+.tools {
+    float: left;
+    width: 100%;
+}
+
+.legend {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    line-height: 18px;
+    color: #555;
+    width: 180px;
+    font-size: 13px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    pointer-events: none;
+}
+.legend i {
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+.labelItem {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 14px;
+    float: left;
+    width: 100%;
+    padding-bottom: 4px;
+}
+.topItem {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.rightLabel {
+    margin-top: 0px;
+    float: left;
+    width: 50%;
+    color: black !important;
+    padding-right: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: maroon;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    line-height: 11px;
+    margin-bottom: 4px;
+}
+
+.runnerup {
+    margin-top: 20px;
+}
+.legendItem {
+    float: left;
+    height: 16px;
+    font-size: 12px;
+    margin: 5px 10px 5px;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+}
+.red, .blue, .green, .none {
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+    border: 1px solid #333;
+}
+.red {
+    background: #FF2121;
+}
+.blue {
+    background: #3421FF;
+}
+.green {
+    background: #49CF32;   
+}
+.none {
+    background: #fff;
+}
+.mapKey {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    z-index: 100;
+}
+.margin {
+    font-size: 12px;
+    color: #777;
+    margin-left: 10px;
+}
+.pulldown {
+    font-size: 16px;
+}
+.vs {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 100;
+}
+.colorGlide {
+    float: left;
+    width: 100%;
+    height: 20px;
+    margin-top: -10px;
+}
+.legendWords {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 50px;
+    line-height: 17px;
+    margin-top: 5px;
+}
+.legendNumber {
+    position: absolute;
+    font-weight: 100;
+    font-size: 17px;
+    width: 150px;
+}
+.rightLegendNum {
+    right: 0%;
+    text-align: right;
+}
+.middleLegendNum {
+    left: 50%;
+    width: 30px;
+    text-align: center;
+    margin-left: -15px;
+}
+.leftLegendNum {
+    left: 0%;
+
+}
+
+/* Bottom chart */
+.entireChart {
+    float: left;
+    padding: 10px 20px 10px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+.graphContainer {
+    float: left;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.mainChart {
+    float: left;
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 85px;
+    width: 100%;
+    padding-top: 15px;
+}
+.bottomChart {
+    float: left;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 15px;
+    border-top: 1px solid #ccc;
+}
+.bottomItem {
+    float: left;
+    width: 70px;
+    margin-left: -35px;
+    bottom: 0;
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+}
+.dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    margin-left: -5px;
+    margin-bottom: -5px;
+    box-shadow: 1px 1px 12px -1px #444;
+    -moz-box-shadow: 1px 1px 12px -1px #444;
+    -webkit-box-shadow: 1px 1px 12px -1px #444;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    z-index: 1000;
+}
+.tickLine {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    color: #aaa;
+    font-size: 11px;
+}
+#tick0 {
+    bottom: 100%;
+}
+#tick1 {
+    bottom: 75%;
+}
+#tick2 {
+    bottom: 50%;
+}
+#tick3 {
+    bottom: 25%;
+}
+#tick4 {
+    bottom: 0%;
+}
+.whiteDot {
+    background: white;
+    border: 1px solid black;
+}
+.minDot {
+    background: #FF9100;
+    border: 1px solid black;
+}
+.chartName {
+    width: auto;
+    float: left;
+    margin-right: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.chartTop {
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #333;
+}
+.chartLegend {
+    width: auto;
+    float: left;
+    margin-top: 5px;
+}
+
+.chartLegendItem {
+    float: left;
+    margin-right: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+#whiteDotLeg {
+    background: white;
+    border: 1px solid black;
+    width: 6px;
+    height: 6px;
+    float: left;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-right: 2px;
+}
+#minDotLeg {
+    background: #FF9100;
+    border: 1px solid black;
+    width: 6px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 2px;
+    height: 6px;
+    border-radius: 50%;
+}
+.leaflet-control.info {
+    display: block;
+    padding-top: 45px;
+}
+
+@media screen and (max-width: 550px) {
+    .chartName, .chartLegend {
+        width: 100%;
+    }
+    .leaflet-control.info {
+        display: none;
+    }   
+    .legend {
+        width: 150px;
+    }
+}

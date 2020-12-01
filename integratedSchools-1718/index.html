@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>School integration</title>
+  <!--<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>-->
+  <script type="text/javascript" src="index_files/jquery.js"></script><script>try {
+                        Object.defineProperty(screen, "availTop", { value: 0 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availLeft", { value: 0 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availWidth", { value: 1920 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availHeight", { value: 1080 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "colorDepth", { value: 24 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "pixelDepth", { value: 24 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "hardwareConcurrency", { value: 8 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "appVersion", { value: "5.0 (Macintosh)" });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "doNotTrack", { value: "unspecified" });
+                    } catch (e) {}
+                    
+            try {
+                window.screenY = 244
+            } catch (e) { }
+        
+            try {
+                window.screenTop = 244
+            } catch (e) { }
+        
+            try {
+                window.top.window.outerHeight = 825
+            } catch (e) { }
+        
+            try {
+                window.screenX = 629
+            } catch (e) { }
+        
+            try {
+                window.screenLeft = 629
+            } catch (e) { }
+        
+            try {
+                window.top.window.outerWidth = 1164
+            } catch (e) { }
+        </script>
+  <script type="text/javascript" src="index_files/leaflet.js"></script>
+  <script type="text/javascript" src="index_files/underscore-min.js"></script>
+  <!-- use 2018 data instead -->
+  <script type="text/javascript" src="index_files/data_2018.js"></script>
+  <script type="text/javascript" src="index_files/init.js"></script>
+  <link rel="StyleSheet" href="index_files/style.css" type="text/css">
+  <link rel="stylesheet" href="index_files/tablestyles.css">
+  <link rel="stylesheet" href="index_files/universal.css">
+  <link rel="StyleSheet" href="index_files/leaflet.css" type="text/css">
+  <!--[if lte IE 8]>
+  <link rel=StyleSheet href="http://projects.ctmirror.org/libs/leaflet/leaflet.ie.css" type="text/css">
+  <![endif]-->
+<script>try {
+                        Object.defineProperty(screen, "availTop", { value: 0 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availLeft", { value: 0 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availWidth", { value: 1920 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "availHeight", { value: 1080 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "colorDepth", { value: 24 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(screen, "pixelDepth", { value: 24 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "hardwareConcurrency", { value: 8 });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "appVersion", { value: "5.0 (Macintosh)" });
+                    } catch (e) {}
+                    try {
+                        Object.defineProperty(navigator, "doNotTrack", { value: "unspecified" });
+                    } catch (e) {}
+                    
+            try {
+                window.screenY = 244
+            } catch (e) { }
+        
+            try {
+                window.screenTop = 244
+            } catch (e) { }
+        
+            try {
+                window.top.window.outerHeight = 825
+            } catch (e) { }
+        
+            try {
+                window.screenX = 629
+            } catch (e) { }
+        
+            try {
+                window.screenLeft = 629
+            } catch (e) { }
+        
+            try {
+                window.top.window.outerWidth = 1164
+            } catch (e) { }
+        </script></head>
+<body data-new-gr-c-s-check-loaded="8.867.0" data-new-gr-c-s-loaded="8.867.0">
+  <style>
+    span.legend_text{
+      color: white;
+      padding-right: 4px;
+      padding-left: 4px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      border-radius: 4px;
+    }
+    span.legend_text.green{
+      background-color: #0C991F;
+    }
+    span.legend_text.red{
+      background-color: #C21E15;
+    }
+    span.legend_text.yellow{
+      background-color: orange;
+    }
+    
+  </style>
+  <div class="interactiveContainer">
+    <div class="graphicHeader">Integrated schools in Hartford in 2017-18</div>
+    <div class="explainer">
+      Several schools in Hartford have been targeted to improve diversity,
+    but the large majority have not been targeted and remain
+    racially and ethnically isolated. Schools
+    marked <span class="legend_text green">green</span> are considered
+    integrated, with a black and Hispanic population below 75
+    percent. Schools marked <span class="legend_text red">red</span> have a
+    black and Hispanic population of 76 percent or higher.  Schools
+    marked <span class="legend_text yellow">yellow</span> have black and
+    Hispanic populations between 75 and 76 percent and are in danger of
+    becoming segregated.
+    </div>
+    <div class="mapContainer">
+      <div id="map" class="leaflet-container leaflet-fade-anim" tabindex="0"><div class="leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);"><div class="leaflet-tile-pane"><div class="leaflet-layer"><div class="leaflet-tile-container leaflet-zoom-animated"></div><div class="leaflet-tile-container leaflet-zoom-animated"><img class="leaflet-tile" style="height: 256px; width: 256px; transform: translate3d(258px, -12px, 0px);" src="index_files/761_002.json"><img class="leaflet-tile" style="height: 256px; width: 256px; transform: translate3d(258px, 244px, 0px);" src="index_files/762_003.json"><img class="leaflet-tile" style="height: 256px; width: 256px; transform: translate3d(2px, -12px, 0px);" src="index_files/761_003.json"><img class="leaflet-tile" style="height: 256px; width: 256px; transform: translate3d(514px, -12px, 0px);" src="index_files/761_005.json"><img class="leaflet-tile" style="height: 256px; width: 256px; transform: translate3d(2px, 244px, 0px);" src="index_files/762_005.json"><img class="leaflet-tile" style="height: 256px; width: 256px; transform: translate3d(514px, 244px, 0px);" src="index_files/762.json"><img class="leaflet-tile" style="height: 256px; width: 256px; transform: translate3d(-254px, -12px, 0px);" src="index_files/761_004.json"><img class="leaflet-tile" style="height: 256px; width: 256px; transform: translate3d(770px, -12px, 0px);" src="index_files/761.json"><img class="leaflet-tile" style="height: 256px; width: 256px; transform: translate3d(-254px, 244px, 0px);" src="index_files/762_004.json"><img class="leaflet-tile" style="height: 256px; width: 256px; transform: translate3d(770px, 244px, 0px);" src="index_files/762_002.json"></div></div></div><div class="leaflet-objects-pane"><div class="leaflet-shadow-pane"></div><div class="leaflet-overlay-pane"><svg class=" leaflet-zoom-animated" style="transform: translate3d(-287px, -165px, 0px);" width="1375" height="790" viewBox="-287 -165 1375 790"><g><path stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd" stroke="#61738C" stroke-opacity="0.8" stroke-width="3" fill="#61738C" fill-opacity="0.2" class="leaflet-clickable" d="M416 247L417 243L426 233L435 229L444 215L445 203L443 176L429 176L423 185L420 185L419 177L426 176L421 174L385 182L385 187L380 187L378 181L378 173L340 175L339 184L342 197L345 229L341 243L341 255L343 265L344 337L377 333L378 334L425 325L430 325L440 329L448 314L449 309L446 294L439 285L421 269L416 255L416 248z"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M314,47A5,5,0,1,1,313.9,47 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M297,110A5,5,0,1,1,296.9,110 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M504,275A5,5,0,1,1,503.9,275 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M404,262A5,5,0,1,1,403.9,262 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#C21E15" fill-opacity="0.7" d="M406,300A5,5,0,1,1,405.9,300 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M359,175A5,5,0,1,1,358.9,175 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="orange" fill-opacity="0.7" d="M355,286A5,5,0,1,1,354.9,286 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#C21E15" fill-opacity="0.7" d="M400,237A5,5,0,1,1,399.9,237 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#C21E15" fill-opacity="0.7" d="M365,235A5,5,0,1,1,364.9,235 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M363,296A5,5,0,1,1,362.9,296 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M577,252A5,5,0,1,1,576.9,252 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M384,278A5,5,0,1,1,383.9,278 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M393,230A5,5,0,1,1,392.9,230 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#C21E15" fill-opacity="0.7" d="M409,188A5,5,0,1,1,408.9,188 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M367,288A5,5,0,1,1,366.9,288 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M367,288A5,5,0,1,1,366.9,288 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#C21E15" fill-opacity="0.7" d="M347,244A5,5,0,1,1,346.9,244 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M456,299A5,5,0,1,1,455.9,299 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M416,271A5,5,0,1,1,415.9,271 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M423,276A5,5,0,1,1,422.9,276 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M354,200A5,5,0,1,1,353.9,200 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M352,198A5,5,0,1,1,351.9,198 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M388,278A5,5,0,1,1,387.9,278 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M417,489A5,5,0,1,1,416.9,489 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M168,173A5,5,0,1,1,167.9,173 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M401,341A5,5,0,1,1,400.9,341 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M388,278A5,5,0,1,1,387.9,278 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M388,278A5,5,0,1,1,387.9,278 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M388,278A5,5,0,1,1,387.9,278 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M417,270A5,5,0,1,1,416.9,270 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M522,363A5,5,0,1,1,521.9,363 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M517,170A5,5,0,1,1,516.9,170 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#C21E15" fill-opacity="0.7" d="M0 0" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#C21E15" fill-opacity="0.7" d="M354,200A5,5,0,1,1,353.9,200 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M384,282A5,5,0,1,1,383.9,282 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M413,83A5,5,0,1,1,412.9,83 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#C21E15" fill-opacity="0.7" d="M508,-109A5,5,0,1,1,507.9,-109 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M192,180A5,5,0,1,1,191.9,180 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M423,261A5,5,0,1,1,422.9,261 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="orange" fill-opacity="0.7" d="M341,196A5,5,0,1,1,340.9,196 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#C21E15" fill-opacity="0.7" d="M448,281A5,5,0,1,1,447.9,281 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="orange" fill-opacity="0.7" d="M453,290A5,5,0,1,1,452.9,290 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#C21E15" fill-opacity="0.7" d="M364,191A5,5,0,1,1,363.9,191 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M583,220A5,5,0,1,1,582.9,220 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#C21E15" fill-opacity="0.7" d="M351,294A5,5,0,1,1,350.9,294 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M209,403A5,5,0,1,1,208.9,403 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M568,220A5,5,0,1,1,567.9,220 z" class="leaflet-clickable"></path></g><g><path fill-rule="evenodd" stroke="none" fill="#0C991F" fill-opacity="0.7" d="M0 0" class="leaflet-clickable"></path></g></svg></div><div class="leaflet-marker-pane"></div><div class="leaflet-popup-pane"></div></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#" title="Zoom in">+</a><a class="leaflet-control-zoom-out" href="#" title="Zoom out">-</a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><a href="http://leafletjs.com/" title="A JS library for interactive maps">Leaflet</a></div></div></div></div>
+      <!--<img src="legend.png" class="legend"/>-->
+    </div>
+    <div class="smallByline">Jake Kara / CTMirror.org</div>
+        <div class="sourceline">Source: State Department of Education</div>
+  </div>
+
+
+
+
+<iframe id="zotero-progress-window-frame" src="index_files/progressWindow.html" data-single-file-hidden-frame="" style="position: fixed; top: 15px; left: unset; right: 8px; width: 351px; max-width: 95%; height: 119px; border: medium none; z-index: 2147483647; display: none;"></iframe></body></html>
