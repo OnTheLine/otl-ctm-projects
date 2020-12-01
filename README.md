@@ -48,3 +48,12 @@ https://projects.ctmirror.org/tools/fancytable/table.html?d=TheOdds-2018-12345
 interactive table for story Feb 27 2018 https://ctmirror.org/category/ct-viewpoints/school-choice-lottery-mystery-parents-desegregation-efforts-wane/
 
 ![screenshot](oddsMagnet-2018/odds-2018.png)
+
+## College cohort 2015
+http://projects.ctmirror.org/content/trend/2015/4/college_cohort/
+
+interactive for story (no longer appears online) http://trendct.org/2015/04/29/only-1-in-4-hartford-high-school-grads-got-a-college-degree-within-six-years/
+
+![screenshot](college_cohort/college-cohort.png)
+
+
