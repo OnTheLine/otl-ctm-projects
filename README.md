@@ -3,6 +3,27 @@ CT Mirror race and education data projects by Alvin Chang, Jake Kara, Jacqueline
 
 see subfolders with data, code, and screenshots for items listed below
 
+## Hartford minority students in desegregated schools, 2004-05 to 2019-20
+![screenshot](students-desegregated-19-20/datawrapper-2019-20.png)
+
+[OnTheLine Datawrapper version](https://datawrapper.dwcdn.net/fdcm0/3/) above, based on data.csv extracted from CTM 2019-20 chart below
+
+![screenshot](students-desegregated-19-20/screenshot.png)
+
+GitHub Pages link https://ontheline.github.io/otl-ctm-projects/students-desegregated-19-20/
+
+original link https://projects.ctmirror.org/tools/chart/charts/Citychildrenattendingintegratedschoolshaslargelystalledoverlast6years-5-0-2020-28302.html
+
+interactive chart for story Jan 10 2020 https://ctmirror.org/2020/01/10/state-settles-school-desegregation-case/
+
+#### See also disaggregated by school type, and subfolders for earlier years
+
+![screenshot](students-desegregated-18-19/screenshot.png)
+
+original link https://projects.ctmirror.org/tools/chart/charts/WhereHartfordminoritystudentsattendschool-4-11-2018-36291.html
+
+interactive chart for story Dec 27 2018 https://ctmirror.org/2018/12/27/segregated-hartford-schools-await-next-governor/
+
 ## Racial composition of school districts, 1969-2013
 ![screenshot](race-districts-1969-2013/screenshot.png)
 
@@ -34,29 +55,6 @@ interactive map for story Feb 27 2018 https://ctmirror.org/category/ct-viewpoint
 - Note that some prior years have GeoJSON errors
 - Integrated Schools in Hartford, 2016-17 https://projects.ctmirror.org/content/2016/12/integratedSchools/, interactive map for story https://ctmirror.org/2016/12/01/new-data-majority-of-hartford-schools-still-segregated-some-progress-made/
 - Integrated Schools in Hartford, 2014-15 https://projects.ctmirror.org/content/2014/11/integratedSchools/, interactive map for story https://ctmirror.org/2014/12/10/thousands-pass-on-school-choice-lottery-despite-robust-options/
-
-## Hartford minority students in desegregated schools, 2004-05 to 2019-20
-![screenshot](students-desegregated-19-20/datawrapper-2019-20.png)
-
-[OnTheLine Datawrapper version](https://datawrapper.dwcdn.net/fdcm0/3/) above, based on data.csv extracted from CTM 2019-20 chart below
-
-![screenshot](students-desegregated-19-20/screenshot.png)
-
-GitHub Pages link https://ontheline.github.io/otl-ctm-projects/students-desegregated-19-20/
-
-original link https://projects.ctmirror.org/tools/chart/charts/Citychildrenattendingintegratedschoolshaslargelystalledoverlast6years-5-0-2020-28302.html
-
-interactive chart for story Jan 10 2020 https://ctmirror.org/2020/01/10/state-settles-school-desegregation-case/
-
-#### See also subfolders for prior years (disaggregated by school type) and external links:
-
-![screenshot](students-desegregated-18-19/screenshot.png)
-
-original link https://projects.ctmirror.org/tools/chart/charts/WhereHartfordminoritystudentsattendschool-4-11-2018-36291.html
-
-interactive chart for story Dec 27 2018 https://ctmirror.org/2018/12/27/segregated-hartford-schools-await-next-governor/
-
-#### see also earlier subfolders
 
 ## Magnet school odds of admission lookup, 2018
 
