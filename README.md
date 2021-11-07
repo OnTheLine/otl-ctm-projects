@@ -36,6 +36,9 @@ interactive map for story Feb 27 2018 https://ctmirror.org/category/ct-viewpoint
 - Integrated Schools in Hartford, 2014-15 https://projects.ctmirror.org/content/2014/11/integratedSchools/, interactive map for story https://ctmirror.org/2014/12/10/thousands-pass-on-school-choice-lottery-despite-robust-options/
 
 ## Hartford minority students in desegregated schools, 2004-05 to 2019-20
+![screenshot](students-desegregated-19-20/datawrapper-2019-20.png)
+
+[OnTheLine Datawrapper version](https://datawrapper.dwcdn.net/fdcm0/3/) above, based on data.csv extracted from CTM 2019-20 chart below
 
 ![screenshot](students-desegregated-19-20/screenshot.png)
 
