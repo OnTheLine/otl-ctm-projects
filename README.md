@@ -66,6 +66,16 @@ original link https://projects.ctmirror.org/tools/fancytable/table.html?d=TheOdd
 
 interactive table for story Feb 27 2018 https://ctmirror.org/category/ct-viewpoints/school-choice-lottery-mystery-parents-desegregation-efforts-wane/
 
+## Achievement gap 2015
+
+![screenshot](achievement-gap-2015/screenshot.png)
+
+GitHub Pages link https://ontheline.github.io/otl-ctm-projects/achievement-gap-2015/
+
+original link https://projects.ctmirror.org/content/trend/2015/10/gradgap/index.html
+
+interactive chart for story Oct 28, 2015 https://ctmirror.org/2015/10/28/cts-report-card-achievement-gap-shrinks-but-for-wrong-reason/
+
 ## College cohort 2015
 ![screenshot](college-cohort-2015/screenshot.png)
 
